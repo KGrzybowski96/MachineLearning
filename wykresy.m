@@ -1,10 +1,11 @@
-x = [1 2 3];
-y = [1 0 1];
-y2 = [1, 1, 0]
+x = linspace[-1,1,100];
+y = relu(x);
+y2 = logistic(x);
 
 hold on
 plot(x,y, 'k--')
 plot(x, y2, 'r-')
+
 grid %siatka
 title('Wykresik')
 xlabel('oœ X')
